@@ -3,15 +3,15 @@
 #include <time.h>
 
 /**
- * main - Entry point
+ *  main - Entry point
  *
- * Description: A C program that prints with rand, srand, RAND_MAX function
+ *  Description: A C program that prints with n function
  *
- * Return: Always 0 (Success)
+ *  Return: Always 0 (Success)
  */
 int main(void)
 {
-int (n)
+int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
