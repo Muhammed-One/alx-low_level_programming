@@ -15,6 +15,6 @@ while (digit <= 9)
 printf("%i", digit);
 digit++;
 }
-putchar('\n');
+printf("\n");
 return (0);
 }
