@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: A C program prints lowercase alphabet with putchar function
+ *  Description: A C program prints numbers of base 16 in lowercase with putchar function
  *
  *  Return: Always 0 (Success)
  */
