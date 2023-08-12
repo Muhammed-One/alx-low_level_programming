@@ -3,17 +3,17 @@
 /**
  *  main - Entry point
  *
- *  Description: A C program prints numbers (0 - 9) with printf function
+ *  Description: A C program prints numbers (0 - 9) with putchar function
  *
  *  Return: Always 0 (Success)
  */
 int main(void)
 {
-char ch = '0';
-while (ch <= '9')
+int digit = 0;
+while (digit <= 9)
 {
-putchar(ch);
-ch++;
+putchar(digit + '0');
+digit++;
 }
 putchar('\n');
 return (0);
