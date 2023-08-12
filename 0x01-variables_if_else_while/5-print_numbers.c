@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: A C program prints numbers (0 - 10) with printf function
+ *  Description: A C program prints numbers (0 - 9) with printf function
  *
  *  Return: Always 0 (Success)
  */
