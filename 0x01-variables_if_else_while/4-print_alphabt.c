@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: A C program that prints alphabet with putchar function & expect e,q
+ *  Description: A C program prints alphabet with putchar function & expect e,q
  *
  *  Return: Always 0 (Success)
  */
