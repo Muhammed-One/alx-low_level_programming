@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ *10-add.c
  * Return: Always 0.
  */
 int main(void)
