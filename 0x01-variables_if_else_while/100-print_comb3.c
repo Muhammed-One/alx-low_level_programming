@@ -3,7 +3,7 @@
 /**
  *  main - Entry point
  *
- *  Description: A C program prints 0, 1, - 9with putchar function
+ *  Description: prints all possible different combinations of two digits.
  *
  *  Return: Always 0 (Success)
  */
