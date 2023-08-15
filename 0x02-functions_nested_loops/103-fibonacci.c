@@ -8,7 +8,7 @@
 int main(void)
 {
 int i;
-unsigned long int b, o, l, next, sum;
+unsigned long int b, o, next, sum;
 
 b = 1;
 o = 2;
@@ -16,13 +16,13 @@ sum = 0;
 
 for (i = 1; i <= 33; ++i)
 {
-if (o < 4000000 && (o % 2) == 0)
+if (b < 4000000 && (b % 2) == 0)
 {
-sum = sum + o;
+sum = sum + b;
 }
-next = o + b;
-o = l;
-l = next;
+next = b + o;
+b = o;
+o = next;
 }
 
 printf("%lu\n", sum);
