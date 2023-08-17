@@ -2,14 +2,14 @@
 
 /**
  * _isupper - uppercase letters
- * @c: char to check
+ * @HAMO: char to check
  *
  * Return: 0 or 1
  */
 
-int _isupper(int c)
+int _isupper(int HAMO)
 {
-if (c >= 'A' && c <= 'Z')
+if (HAMO >= 'A' && HAMO <= 'Z')
 return (1);
 else
 return (0);
