@@ -7,7 +7,7 @@ void _print_rev_recursion(char *m);
 int _strlen_recursion(char *m);
 int factorial(int o);
 int _pow_recursion(int f, int g);
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int d);
 int is_prime_number(int n);
 int is_palindrome(char *s);
 #endif
